@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookinglunch
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: hoangthanhtu123@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
